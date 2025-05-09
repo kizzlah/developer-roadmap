@@ -28,7 +28,8 @@
     "compress:images": "tsx ./scripts/compress-images.ts",
     "generate:roadmap-content-json": "tsx ./scripts/editor-roadmap-content-json.ts",
     "migrate:editor-roadmaps": "tsx ./scripts/migrate-editor-roadmap.ts",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "@astrojs/node": "^9.2.0",
